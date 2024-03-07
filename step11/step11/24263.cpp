@@ -3,9 +3,10 @@
 //
 //int main(void) {
 //
-//	int a;
-//	cin >> a;
-//	cout << "1\n" << "0";
+//	int n;
+//
+//	cin >> n;
+//	cout << n << "\n" << 1;
 //
 //	return 0;
 //}
