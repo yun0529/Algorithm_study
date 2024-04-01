@@ -1,14 +1,19 @@
 //#include <iostream>
 //using namespace std;
 //
+//int pec(int n) {
+//	int sum = 1;
+//	for (int i = n; i > 0; i--) {
+//		sum *= i;
+//	}
+//	return sum;
+//}
+//
 //int main(void) {
 //
-//	int n, k, sum = 0;
+//	int n, k;
 //	cin >> n >> k;
-//
-//	for (int i = n; i > 0; i--) {
-//		sum *= i/(i-k);
-//	}
-//	cout << sum;
+//	
+//	cout << pec(n)/pec(n-k)/pec(k);
 //	return 0;
 //}
