@@ -1,12 +1,11 @@
-//#include "bits/stdc++.h"
-#include <iostream>
-#include <algorithm>
-#include <vector>
-using namespace std;
-/*
-- 재귀로 구현하는 permutation
-
-*/
+//// #include "bits/stdc++.h"
+//#include <iostream>
+//#include <algorithm>
+//#include <vector>
+//using namespace std;
+///*
+//- 재귀로 구현하는 permutation
+//*/
 //int a[3] = { 1,2,3 };
 //int n = 3, r = 3;
 //void print() {
@@ -30,7 +29,7 @@ using namespace std;
 //	}
 //	return;
 //}
-
+//
 //int main() {
 //
 //	makePermutation(n, r, 0);
