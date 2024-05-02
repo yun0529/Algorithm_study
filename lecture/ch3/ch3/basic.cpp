@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <algorithm>
 using namespace std;
 
 // 주석을 처음에 추가해서 어떤걸 구현해야 하는지 먼저 작성
