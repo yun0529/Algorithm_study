@@ -130,6 +130,7 @@
     <ClCompile Include="m_p.cpp" />
     <ClCompile Include="pointer.cpp" />
     <ClCompile Include="split.cpp" />
+    <ClCompile Include="unique.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
