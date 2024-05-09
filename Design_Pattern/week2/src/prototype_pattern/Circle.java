@@ -10,6 +10,15 @@ public class Circle extends Shape {
         this.r = r;
     }
 
+    public Circle copy() throws  CloneNotSupportedException{
+        Circle circle = (Circle) clone(); // 알아서 clone 해줌
+        //circle.x = x + 1;
+        //circle.y = y + 1;
+
+        return circle;
+    }
+
+
     public int getX() {
         return x;
     }
@@ -32,12 +41,5 @@ public class Circle extends Shape {
 
     public void setY(int y) {
         this.y = y;
-    }
-    public Circle copy() throws  CloneNotSupportedException{
-        Circle circle = (Circle) clone(); // 알아서 clone 해줌
-        circle.x = x + 1;
-        circle.y = y + 1;
-
-        return circle;
     }
 }

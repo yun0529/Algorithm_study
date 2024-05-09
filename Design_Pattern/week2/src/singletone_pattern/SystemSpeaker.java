@@ -1,7 +1,7 @@
 package singletone_pattern;
 
 public class SystemSpeaker {
-    // 하나만 있어야 하는 스피커 이기 때문에 static임
+    // 하나만 있어야 하는 스피커 이기 때문에 static이다.
     static private SystemSpeaker instance;
     private int volume;
 
@@ -16,8 +16,6 @@ public class SystemSpeaker {
         }else{
             System.out.println("이미 생성");
         }
-
-
         return instance;
     }
 
