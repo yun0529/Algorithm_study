@@ -15,16 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="split.cpp">
+    <ClCompile Include="big_o.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="m_p.cpp">
+    <ClCompile Include="big_o2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="pointer.cpp">
+    <ClCompile Include="big_o3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="unique.cpp">
+    <ClCompile Include="space_complexity.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="prefix_sum.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="basic.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

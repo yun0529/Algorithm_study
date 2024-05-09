@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{98cd0e56-a02c-4dcc-bb6f-5caba8b3944e}</ProjectGuid>
-    <RootNamespace>ch2</RootNamespace>
+    <ProjectGuid>{7bbcb774-5af8-424d-9c14-4b140bd221ae}</ProjectGuid>
+    <RootNamespace>ch3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="m_p.cpp" />
-    <ClCompile Include="pointer.cpp" />
-    <ClCompile Include="split.cpp" />
-    <ClCompile Include="unique.cpp" />
+    <ClCompile Include="basic.cpp" />
+    <ClCompile Include="big_o.cpp" />
+    <ClCompile Include="big_o2.cpp" />
+    <ClCompile Include="big_o3.cpp" />
+    <ClCompile Include="prefix_sum.cpp" />
+    <ClCompile Include="space_complexity.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
