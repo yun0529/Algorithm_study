@@ -29,10 +29,12 @@ import factory_method_pattern.framework.ItemCreator;
 import prototype_pattern.Circle;
 import prototype_pattern.deep_shallow.Age;
 import prototype_pattern.deep_shallow.Cat;
+import prototype_pattern.deep_shallow.Cat_;
 import singletone_pattern.SystemSpeaker;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
+
 //        ItemCreator creator;
 //        Item item;
 //
@@ -68,6 +70,16 @@ public class Main {
 
         System.out.println(circle1.getX() + ", "+circle1.getY() + ", " + circle1.getR());
         System.out.println(circle2.getX() + ", "+circle2.getY() + ", " + circle2.getR());
+
+//        Cat_ navi = new Cat_();
+//        navi.setName("navi");
+//
+//        Cat_ yo = navi.copy();
+//
+//        yo.setName("yo");
+//
+//        System.out.println(navi.getName());
+//        System.out.println(yo.getName());
 
         Cat navi = new Cat();
         navi.setName("navi");
