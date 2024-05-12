@@ -128,8 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1-A_permuation.cpp" />
+    <ClCompile Include="1-C.cpp" />
+    <ClCompile Include="1-D.cpp" />
+    <ClCompile Include="1-E.cpp" />
+    <ClCompile Include="1-F.cpp" />
     <ClCompile Include="1_A_combination.cpp" />
     <ClCompile Include="1_A_per_rec.cpp" />
+    <ClCompile Include="1_B_counting_star.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
