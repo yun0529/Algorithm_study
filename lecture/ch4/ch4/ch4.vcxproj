@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="1-A_permuation.cpp" />
     <ClCompile Include="1_A_combination.cpp" />
+    <ClCompile Include="1_A_per_rec.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
