@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1-A_permuation.cpp" />
+    <ClCompile Include="1-A_permutation.cpp" />
     <ClCompile Include="1-C.cpp" />
     <ClCompile Include="1-D.cpp" />
     <ClCompile Include="1-E.cpp" />

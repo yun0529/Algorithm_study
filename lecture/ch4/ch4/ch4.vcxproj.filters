@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1-A_permuation.cpp">
+    <ClCompile Include="1-A_permutation.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1_A_combination.cpp">
