@@ -43,10 +43,11 @@ public class Main {
         for(Visitable visitable : visitables){ // Visitor가 Visitable을 방문해서 특정 동작을 수행한다.
             //visitable.accept(visitor); // accept 내부의 visit이 수행하는 기능 -> 나이 더하기
             ageSum += ((VisitableA)visitable).getAge(); // 이렇게도 사용 가능
+            // VisitorA 의 모양새를 알고 있지만 VisitorA의 클래스 수정 불가능.
+            // 이럴 때 VisitableA 객체를 만들어주면 방문할 수 있고, 외부에서 구현 가능함.
         }
         //System.out.println(((VisitorA) visitor).getAgeSum());
-        // VisitorA 의 모양새를 알고 있지만 VisitorA의 클래스 수정 불가능.
-        // 이럴 때 VisitorA 객체를 만들어주면 외부에서 구현 가능함.
+
 
         System.out.println(ageSum);
 

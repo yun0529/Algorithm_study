@@ -4,14 +4,10 @@ public class Armor implements Defense{
 
     private Defense nextDefense;
     private float def;
-
-    public Armor() {
-    }
-
+    public Armor() {}
     public Armor(float def) {
         this.def = def;
     }
-
     public void setDef(float def) {
         this.def = def;
     }
