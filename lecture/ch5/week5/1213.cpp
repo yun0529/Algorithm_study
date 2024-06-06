@@ -32,11 +32,11 @@ int main() {
 			}
 		}
 	}
+	if(mid) ret.insert(ret.begin() + ret.length() / 2, mid); // 지시자를 써야하는듯..?
 	if (cnt == 2) {
-		cout << "I'm Sorry Hansoo";
+		cout << "I\'m Sorry Hansoo";
 	}
 	else {
-		ret.insert(ret.begin() + ret.length() / 2, mid); // 지시자를 써야하는듯..?
 		cout << ret;
 	}
 
