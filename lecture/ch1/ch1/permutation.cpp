@@ -23,7 +23,8 @@ using namespace std;
 //	do {
 //		for (int i : a) cout << i << " ";
 //		cout << "\n";
-//	} while (next_permutation(&a[0], &a[0] + 3)); // 배열의 주소는 다음과 같이도 사용 가능 ex. (a, a + 3) 또는 (&a[0], &a[3])
+//	// 배열의 주소는 다음과 같이도 사용 가능 ex. (a, a + 3) 또는 (&a[0], &a[3])
+//	} while (next_permutation(&a[0], &a[0] + 3)); 
 //
 //	cout << "\n----------\n";
 //
@@ -33,7 +34,8 @@ using namespace std;
 //	do {
 //		for (int i : v) cout << i << " ";
 //		cout << "\n";
-//	} while (next_permutation(v.begin(),v.end())); // 배열의 주소는 다음과 같이도 사용 가능 ex. (v.begin(), v.begin() + 2)
+//	// 배열의 주소는 다음과 같이도 사용 가능 ex. (v.begin(), v.begin() + 2)
+//	} while (next_permutation(v.begin(),v.end())); 
 //
 //	return 0;
 //}
