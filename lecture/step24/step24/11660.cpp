@@ -1,33 +1,31 @@
-#include <bits/stdc++.h>
-using namespace std;
-
-int n, m, x;
-int main() { // 누적합
-
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL); cout.tie(NULL);
-
-	cin >> n >> m;
-
-	for (int i = 1; i <= n; i++) {
-		cin >> x;
-		sum = x + sum;
-		psum[sum % m]++;
-	}
-	//if (psum[n] < m) {
-	//	cout << cnt;
-	//	return 0;
-	//}
-	//int a = 2;
-	for (int i = 0; i <= 1004; i++) {
-		cnt += psum[i] * (psum[i] - 1) / 2;
-		/*for (int j = 0; j <= i - 2; j++) {
-			if ((psum[i] - psum[j]) % m == 0) {
-				cnt++;
-			}
-		}*/
-	}
-	cout << psum[0] + cnt;
-
-	return 0;
-}
+//#include <bits/stdc++.h>
+//using namespace std;
+//
+//int n, m, x;
+//int arr[1028][1028];
+//int psum[1028][1028];
+//int main() { // 누적합
+//
+//	ios_base::sync_with_stdio(false);
+//	cin.tie(NULL); cout.tie(NULL);
+//
+//	cin >> n >> m;
+//
+//	for (int i = 1; i <= n; i++) {
+//		for (int j = 1; j <= n; j++) {
+//			cin >> arr[i][j];
+//			psum[i][j] = psum[i][j - 1] + arr[i][j];
+//		}
+//	}
+//	int x1, x2, y1, y2;
+//	for (int i = 0; i < m; i++) {
+//		cin >> x1 >> y1 >> x2 >> y2;
+//		int sum = 0;
+//		for (int j = x1; j <= x2; j++) {
+//			sum += psum[j][y2] - psum[j][y1-1];
+//		}
+//		cout << sum << '\n';
+//	}
+//
+//	return 0;
+//}
