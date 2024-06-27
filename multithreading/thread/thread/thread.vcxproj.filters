@@ -18,7 +18,13 @@
     <ClCompile Include="lecture1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="leacture2.cpp">
+    <ClCompile Include="lecture2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lecture3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lecture4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
