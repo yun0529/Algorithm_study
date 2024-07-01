@@ -15,7 +15,7 @@
 //
 //	for (int i = 0;i < n;i++) {
 //		for (int j = 0;j < m;j++) {
-//			scanf("%1d", &a[i][j]);
+//			scanf_s("%1d", &a[i][j]);
 //		}
 //	}
 //	queue<pair<int, int>> q;
@@ -29,7 +29,7 @@
 //			int ny = y + dy[i];
 //			int nx = x + dx[i];
 //
-//			if (ny < 0 || ny > n || nx < 0 || nx > m || a[ny][nx] == 0) continue;
+//			if (ny < 0 || ny >= n || nx < 0 || nx >= m || a[ny][nx] == 0) continue;
 //			if (visited[ny][nx]) continue;
 //			visited[ny][nx] = visited[y][x] + 1;
 //			q.push({ ny,nx });
