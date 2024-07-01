@@ -30,5 +30,14 @@
     <ClCompile Include="1012.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BFS_ex.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS&amp;BFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeTraversal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -131,7 +131,10 @@
     <ClCompile Include="2178.cpp" />
     <ClCompile Include="basic.cpp" />
     <ClCompile Include="BFS.cpp" />
+    <ClCompile Include="BFS_ex.cpp" />
+    <ClCompile Include="DFS&amp;BFS.cpp" />
     <ClCompile Include="DFS.cpp" />
+    <ClCompile Include="TreeTraversal.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
