@@ -128,12 +128,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1012.cpp" />
+    <ClCompile Include="10709.cpp" />
     <ClCompile Include="1992.cpp" />
     <ClCompile Include="2178.cpp" />
     <ClCompile Include="2468.cpp" />
     <ClCompile Include="2583.cpp" />
     <ClCompile Include="2828.cpp" />
+    <ClCompile Include="2852.cpp" />
+    <ClCompile Include="2870.cpp" />
+    <ClCompile Include="2910.cpp" />
     <ClCompile Include="3474.cpp" />
+    <ClCompile Include="4659.cpp" />
     <ClCompile Include="basic.cpp" />
     <ClCompile Include="BFS.cpp" />
     <ClCompile Include="BFS_ex.cpp" />

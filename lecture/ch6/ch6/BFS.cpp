@@ -8,6 +8,17 @@
 //// queue에 push하고 front와 연결된 것들을 push하고 가장 앞의 노드를 pop함.
 //// 최단거리를 담는 것으로 사용할 수 있음.
 //
+// BFS(G, u)
+//	u.visited = true
+//	q.push(u);
+//	while (q.size())
+//		u = q.front()
+//		q.pop()
+//		for each v ∈ G.Adj[u]
+//			if v.visited == false
+//				v.visited = true
+//				q.push(v)
+// 
 //#include <bits/stdc++.h>
 //using namespace std;
 //
