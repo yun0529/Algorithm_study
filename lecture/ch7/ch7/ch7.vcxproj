@@ -127,8 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="15686.cpp" />
     <ClCompile Include="back_tracking.cpp" />
     <ClCompile Include="brute_force&amp;rollback.cpp" />
+    <ClCompile Include="brute_force&amp;rollback_ex.cpp" />
     <ClCompile Include="brute_force.cpp" />
     <ClCompile Include="brute_force_ex1.cpp" />
     <ClCompile Include="brute_force_ex2.cpp" />
