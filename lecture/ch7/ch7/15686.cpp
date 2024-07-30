@@ -10,7 +10,7 @@ queue <pair< int, int >> q;
 
 
 
-int go(int y, int x, int f) { // bfs
+int go(int y, int x) { // bfs
 	visited[y][x] = 1;
 	q.push({ y,x });
 
@@ -27,7 +27,7 @@ int go(int y, int x, int f) { // bfs
 			if (visited[ny][nx]) continue;
 			//for(auto i : )
 			visited[ny][nx] = visited[y][x] + 1;
-			if (arr[ny][nx] == f) return visited[ny][nx];
+			if (arr[ny][nx] == 1) return visited[ny][nx];
 			//go(ny, nx);
 			q.push({ ny, nx });
 		}
@@ -50,16 +50,11 @@ int main() { // 최대 범위 : 50 * 50 = 2500, 2500C13 이 최대다.
 	// 
 	/*go(0, 1);
 	cout << visited[4][3] - visited[0][1] <<'\n';*/
-
+	go(0, 0);
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
 			fill(&visited[0][0], &visited[0][0] + 54 * 54, 0);
-			if (arr[i][j] == 1) {
-				dist = min(dist,go(i, j, 2));
-			}
-			else if (arr[i][j] == 2) {
-				dist = min(dist, go(i, j, 1));
-			}
+			dist = min(dist, go(i, j));
 			//cout << visited[i][j] << ' ';
 		}
 		//cout << "\n";
