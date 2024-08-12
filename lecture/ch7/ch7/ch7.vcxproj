@@ -127,9 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="12851.cpp" />
     <ClCompile Include="12869.cpp" />
     <ClCompile Include="15686.cpp" />
     <ClCompile Include="16234.cpp" />
+    <ClCompile Include="16637.cpp" />
     <ClCompile Include="2589.cpp" />
     <ClCompile Include="4179.cpp" />
     <ClCompile Include="back_tracking.cpp" />
