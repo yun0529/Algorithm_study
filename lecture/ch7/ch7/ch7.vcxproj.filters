@@ -15,79 +15,52 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="basic.cpp">
+    <ClCompile Include="brute_force.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2178.cpp">
+    <ClCompile Include="brute_force_ex1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BFS.cpp">
+    <ClCompile Include="brute_force_ex2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="DFS.cpp">
+    <ClCompile Include="back_tracking.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1012.cpp">
+    <ClCompile Include="brute_force&amp;rollback.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BFS_ex.cpp">
+    <ClCompile Include="brute_force&amp;rollback_ex.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="DFS&amp;BFS.cpp">
+    <ClCompile Include="15686.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="TreeTraversal.cpp">
+    <ClCompile Include="2589.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2468.cpp">
+    <ClCompile Include="16234.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2583.cpp">
+    <ClCompile Include="4179.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1992.cpp">
+    <ClCompile Include="12869.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2828.cpp">
+    <ClCompile Include="16637.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3474.cpp">
+    <ClCompile Include="12851.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2910.cpp">
+    <ClCompile Include="13913.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4659.cpp">
+    <ClCompile Include="17071.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2870.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10709.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2852.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1436.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9012.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14502.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2636.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1068.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1325.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="17298.cpp">
+    <ClCompile Include="14497.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
