@@ -136,6 +136,7 @@
     <ClCompile Include="16637.cpp" />
     <ClCompile Include="17071.cpp" />
     <ClCompile Include="2589.cpp" />
+    <ClCompile Include="3197.cpp" />
     <ClCompile Include="4179.cpp" />
     <ClCompile Include="back_tracking.cpp" />
     <ClCompile Include="brute_force&amp;rollback.cpp" />
