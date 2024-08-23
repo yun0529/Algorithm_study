@@ -10,24 +10,57 @@ bool flag = false;
 vector <pair< int, int >> a;
 queue<pair<int, int>> q;
 
-void dfs(int y, int x, int cnt) {
-    visited[y][x] = 1;
-    for (int i = 0; i < 4; i++) {
-        int ny = y + dy[i];
-        int nx = x + dx[i];
+//void dfs(int y, int x, int cnt) {
+//    visited[y][x] = 1;
+//    for (int i = 0; i < 4; i++) {
+//        int ny = y + dy[i];
+//        int nx = x + dx[i];
+//
+//        if (nx < 0 || ny < 0 || nx >= c || ny >= r) continue;
+//        if (visited[ny][nx]) continue;
+//        //if (abs(a[cnt].first - ny) + abs(a[cnt].second - nx) > dist)continue;
+//
+//        if (arr[ny][nx] == '.') dfs(ny, nx, cnt); 
+//        else if (arr[y][x] == '.' && arr[ny][nx] == 'X') { 
+//            arr[ny][nx] = '.'; 
+//            visited[ny][nx] = 1;
+//        }
+//        else if (arr[ny][nx] == 'L') {
+//            flag = true;
+//            return;
+//        }
+//    }
+//}
 
-        if (nx < 0 || ny < 0 || nx >= c || ny >= r) continue;
-        if (visited[ny][nx]) continue;
-        //if (abs(a[cnt].first - ny) + abs(a[cnt].second - nx) > dist)continue;
+void bfs(int y, int x) {
+    q.push({ y, x});
+    //visited[y][x] = 1;
+    //int x, y;
+    while (q.size()) {
+        tie(y, x) = q.front();
+        q.pop();
+        visited[y][x] = 1;
+        for (int i = 0; i < 4; i++) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
 
-        if (arr[ny][nx] == '.') dfs(ny, nx, cnt); 
-        else if (arr[y][x] == '.' && arr[ny][nx] == 'X') { 
-            arr[ny][nx] = '.'; 
-            visited[ny][nx] = 1;
-        }
-        else if (arr[ny][nx] == 'L') {
-            flag = true;
-            return;
+            if (nx < 0 || ny < 0 || nx >= c || ny >= r) continue;
+            if (visited[ny][nx]) continue;
+            //visited[ny][nx] = 1;
+
+            if (arr[ny][nx] == 'L') {
+                //cout << "d";
+                flag = true;
+                return;
+            }
+
+            if (arr[ny][nx] == '.') q.push({ ny,nx });
+            else if (arr[ny][nx] == 'X' && (arr[y][x] == '.' || arr[y][x] == 'L')) {
+                arr[ny][nx] = '.';
+                visited[ny][nx] = 1;
+                //cout << 'f';
+            }
+            
         }
     }
 }
@@ -53,39 +86,6 @@ void moveD(int y, int x, int cnt) {
         }
     }
 }
-
-//void bfs(int y, int x) {
-//    q.push({ y, x});
-//    //visited[y][x] = 1;
-//    //int x, y;
-//    while (q.size()) {
-//        tie(y, x) = q.front();
-//        q.pop();
-//        visited[y][x] = 1;
-//        for (int i = 0; i < 4; i++) {
-//            int nx = x + dx[i];
-//            int ny = y + dy[i];
-//
-//            if (nx < 0 || ny < 0 || nx >= c || ny >= r) continue;
-//            if (visited[ny][nx]) continue;
-//            //visited[ny][nx] = 1;
-//
-//            if (arr[ny][nx] == 'L') {
-//                //cout << "d";
-//                flag = true;
-//                return;
-//            }
-//
-//            if (arr[ny][nx] == '.') q.push({ ny,nx });
-//            else if (arr[ny][nx] == 'X' && (arr[y][x] == '.' || arr[y][x] == 'L')) {
-//                arr[ny][nx] = '.';
-//                visited[ny][nx] = 1;
-//                //cout << 'f';
-//            }
-//            
-//        }
-//    }
-//}
 
 int main() {
     ios_base::sync_with_stdio(false);
