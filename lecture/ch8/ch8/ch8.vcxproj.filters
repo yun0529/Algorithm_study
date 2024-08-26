@@ -18,5 +18,11 @@
     <ClCompile Include="bitmasking.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="example.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19942.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
