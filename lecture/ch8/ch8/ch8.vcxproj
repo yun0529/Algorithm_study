@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="1285.cpp" />
     <ClCompile Include="17471.cpp" />
+    <ClCompile Include="1987.cpp" />
     <ClCompile Include="19942.cpp" />
     <ClCompile Include="bitmasking.cpp" />
     <ClCompile Include="example.cpp" />
