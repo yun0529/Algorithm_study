@@ -21,7 +21,13 @@
     <ClCompile Include="greedy_condition.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex1.cpp">
+    <ClCompile Include="ex1_1931.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex2_1202.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex3_14729.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

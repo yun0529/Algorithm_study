@@ -26,7 +26,7 @@ int main() {
 	to = v[0].first;
 
 	for (int i = 1; i < n; i++) {
-		if (v[i].second < to) continue;
+		if (v[i].second < to) continue; // 다음 차례 시작시간이 이전 차례의 끝 시간보다 빠르면 continue
 		from = v[i].second;
 		to = v[i].first;
 		ret++;

@@ -127,9 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ex1.cpp" />
+    <ClCompile Include="ex1_1931.cpp" />
+    <ClCompile Include="ex2_1202.cpp" />
     <ClCompile Include="greedy.cpp" />
     <ClCompile Include="greedy_condition.cpp" />
+    <ClCompile Include="ex3_14729.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
