@@ -30,5 +30,8 @@
     <ClCompile Include="ex3_14729.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Line_Sweeping.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
