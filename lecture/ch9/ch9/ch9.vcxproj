@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2109.cpp" />
     <ClCompile Include="ex1_1931.cpp" />
     <ClCompile Include="ex2_1202.cpp" />
     <ClCompile Include="greedy.cpp" />
     <ClCompile Include="greedy_condition.cpp" />
     <ClCompile Include="ex3_14729.cpp" />
     <ClCompile Include="Line_Sweeping.cpp" />
+    <ClCompile Include="two_pointer_3273.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
