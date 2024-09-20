@@ -4,6 +4,7 @@
 //string str, boom, ret;
 //int arr[130];
 //
+// // 폭발, 짝짓기 같은거 나오면 스택 사용해야 할 확률이 높음.
 //int main() {
 //
 //	ios_base::sync_with_stdio(false);
