@@ -1,7 +1,7 @@
 //#include <bits/stdc++.h>
 //using namespace std;
 //
-//int n, check[4000004], arr[4000004], sum = 0, ret, lo, hi;;
+//int n, check[4000004], arr[4000004], sum = 0, ret, lo, hi;
 //
 //int main() {
 //
