@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c5fa23e1-17b1-418e-9ac2-3823bbdbe990}</ProjectGuid>
-    <RootNamespace>ch9</RootNamespace>
+    <ProjectGuid>{55e8c9a0-04d2-471e-bbc5-80f876f777f8}</ProjectGuid>
+    <RootNamespace>ch10</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,24 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1202.cpp" />
-    <ClCompile Include="13144.cpp" />
-    <ClCompile Include="14469.cpp" />
-    <ClCompile Include="1644.cpp" />
-    <ClCompile Include="1700.cpp" />
-    <ClCompile Include="17144.cpp" />
-    <ClCompile Include="1781.cpp" />
-    <ClCompile Include="1931.cpp" />
-    <ClCompile Include="2109.cpp" />
-    <ClCompile Include="3273.cpp" />
-    <ClCompile Include="9935.cpp" />
-    <ClCompile Include="ex1_1931.cpp" />
-    <ClCompile Include="ex2_1202.cpp" />
-    <ClCompile Include="greedy.cpp" />
-    <ClCompile Include="greedy_condition.cpp" />
-    <ClCompile Include="ex3_14729.cpp" />
-    <ClCompile Include="Line_Sweeping.cpp" />
-    <ClCompile Include="two_pointer_3273.cpp" />
+    <ClCompile Include="binarySearch.cpp" />
+    <ClCompile Include="binarySearch_ex.cpp" />
+    <ClCompile Include="LIS.cpp" />
+    <ClCompile Include="LIS_ex.cpp" />
+    <ClCompile Include="LIS_ex2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
