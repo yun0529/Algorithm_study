@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2792.cpp" />
     <ClCompile Include="binarySearch.cpp" />
     <ClCompile Include="binarySearch_ex.cpp" />
     <ClCompile Include="LIS.cpp" />
