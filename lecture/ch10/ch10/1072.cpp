@@ -1,7 +1,9 @@
 //#include <iostream>
 //using namespace std;
 //
-//int x, y, z, ret = 0;
+//typedef long long ll;
+//
+//ll x, y, z, ret = 0;
 //
 //int main() {
 //
@@ -11,20 +13,19 @@
 //	cin >> x >> y;
 //	z = y * 100 / x;
 //
-//	int lo = y, hi = x;
+//	ll lo = 0, hi = 1000000000;
 //	while (lo <= hi) {
-//		int mid = (lo + hi) / 2;
-//		if (mid * 100 / x > z) {
+//		ll mid = (lo + hi) / 2;
+//		if ((mid + y) * 100 / (mid + x) > z) {
 //			hi = mid - 1;
 //			ret = mid;
 //		}
 //		else {
 //			lo = mid + 1;
-//
 //		}
 //	}
 //
-//	if (ret) cout << ret - y;
+//	if (ret) cout << ret;
 //	else cout << -1;
 //
 //	return 0;
