@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{55e8c9a0-04d2-471e-bbc5-80f876f777f8}</ProjectGuid>
-    <RootNamespace>ch10</RootNamespace>
+    <ProjectGuid>{6aa91371-2542-4d89-ab06-f21a7923e12c}</ProjectGuid>
+    <RootNamespace>ch11</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,18 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1072.cpp" />
-    <ClCompile Include="1269.cpp" />
-    <ClCompile Include="16434.cpp" />
-    <ClCompile Include="2343.cpp" />
-    <ClCompile Include="2792.cpp" />
-    <ClCompile Include="6236.cpp" />
-    <ClCompile Include="7795.cpp" />
-    <ClCompile Include="binarySearch.cpp" />
-    <ClCompile Include="binarySearch_ex.cpp" />
-    <ClCompile Include="LIS.cpp" />
-    <ClCompile Include="LIS_ex.cpp" />
-    <ClCompile Include="LIS_ex2.cpp" />
+    <ClCompile Include="dp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

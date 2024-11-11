@@ -15,40 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="binarySearch.cpp">
+    <ClCompile Include="6247.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="binarySearch_ex.cpp">
+    <ClCompile Include="6246.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="LIS.cpp">
+    <ClCompile Include="6248.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="LIS_ex.cpp">
+    <ClCompile Include="swea1206.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="LIS_ex2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2792.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2343.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6236.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7795.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1269.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="16434.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1072.cpp">
+    <ClCompile Include="swea1208.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
