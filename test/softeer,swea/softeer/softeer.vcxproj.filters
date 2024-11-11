@@ -15,19 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6247.cpp">
+    <ClCompile Include="softeer6247.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6246.cpp">
+    <ClCompile Include="softeer6246.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6248.cpp">
+    <ClCompile Include="softeer6248.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="swea1206.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="swea1208.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="swea1209.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="swea1240.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="swea2805.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
