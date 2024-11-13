@@ -134,8 +134,14 @@
     <ClCompile Include="swea1206.cpp" />
     <ClCompile Include="swea1208.cpp" />
     <ClCompile Include="swea1209.cpp" />
+    <ClCompile Include="swea1215.cpp" />
+    <ClCompile Include="swea1220.cpp" />
+    <ClCompile Include="swea1225.cpp" />
     <ClCompile Include="swea1240.cpp" />
+    <ClCompile Include="swea1244.cpp" />
+    <ClCompile Include="swea1767.cpp" />
     <ClCompile Include="swea2805.cpp" />
+    <ClCompile Include="swea2806.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
