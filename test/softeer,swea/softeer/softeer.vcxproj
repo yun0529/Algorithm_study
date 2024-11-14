@@ -131,6 +131,7 @@
     <ClCompile Include="softeer6246.cpp" />
     <ClCompile Include="softeer6247.cpp" />
     <ClCompile Include="softeer6248.cpp" />
+    <ClCompile Include="swea11285.cpp" />
     <ClCompile Include="swea1206.cpp" />
     <ClCompile Include="swea1208.cpp" />
     <ClCompile Include="swea1209.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="swea1767.cpp" />
     <ClCompile Include="swea2805.cpp" />
     <ClCompile Include="swea2806.cpp" />
+    <ClCompile Include="permutation, combi.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
