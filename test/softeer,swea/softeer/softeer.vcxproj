@@ -131,6 +131,7 @@
     <ClCompile Include="softeer6246.cpp" />
     <ClCompile Include="softeer6247.cpp" />
     <ClCompile Include="softeer6248.cpp" />
+    <ClCompile Include="swea10993.cpp" />
     <ClCompile Include="swea11285.cpp" />
     <ClCompile Include="swea1206.cpp" />
     <ClCompile Include="swea1208.cpp" />
