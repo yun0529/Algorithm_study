@@ -24,6 +24,7 @@
     <ProjectGuid>{8a7849ac-fac9-4ce2-9557-c63346809d5f}</ProjectGuid>
     <RootNamespace>softeer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>test</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,11 +128,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="6246.cpp" />
-    <ClCompile Include="6247.cpp" />
-    <ClCompile Include="6248.cpp" />
+    <ClCompile Include="softeer6246.cpp" />
+    <ClCompile Include="softeer6247.cpp" />
+    <ClCompile Include="softeer6248.cpp" />
+    <ClCompile Include="swea10993.cpp" />
+    <ClCompile Include="swea11285.cpp" />
     <ClCompile Include="swea1206.cpp" />
+<<<<<<< HEAD:programmers/softeer/softeer/softeer.vcxproj
     <ClCompile Include="test.cpp" />
+=======
+    <ClCompile Include="swea1208.cpp" />
+    <ClCompile Include="swea1209.cpp" />
+    <ClCompile Include="swea1215.cpp" />
+    <ClCompile Include="swea1220.cpp" />
+    <ClCompile Include="swea1225.cpp" />
+    <ClCompile Include="swea1240.cpp" />
+    <ClCompile Include="swea1244.cpp" />
+    <ClCompile Include="swea1767.cpp" />
+    <ClCompile Include="swea2805.cpp" />
+    <ClCompile Include="swea2806.cpp" />
+    <ClCompile Include="permutation, combi.cpp" />
+>>>>>>> bcf677f9b1118ea46225a1452736e1eb2d585928:test/softeer,swea/softeer/softeer.vcxproj
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

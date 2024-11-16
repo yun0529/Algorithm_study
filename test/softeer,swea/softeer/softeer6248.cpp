@@ -85,3 +85,72 @@
 //
 //    return 0;
 //}
+//#include<bits/stdc++.h>
+//
+//using namespace std;
+//
+//const int max_int = 100001;
+//
+//map<int, bool> a1[max_int];
+//map<int, bool> a2[max_int];
+//int visited1[max_int]; // 출발지 정순
+//int visited2[max_int]; // 목적지 역순
+////---
+//int visited3[max_int]; // 목적지 정순
+//int visited4[max_int]; // 출발지 역순
+//
+//int n, m;
+//int from, to;
+//using namespace std;
+//
+//int ret = 0;
+//
+//void dfs(int p, int* visited, map<int, bool> v[]) {
+//    if (visited[p]) { return; }
+//    else visited[p] = 1;
+//
+//    for (auto iter = v[p].begin(); iter != v[p].end(); iter++) {
+//        if (iter->second) dfs(iter->first, visited, v);
+//    }
+//    return;
+//}
+//
+//int main(int argc, char** argv)
+//{
+//    ios_base::sync_with_stdio(false);
+//    cin.tie(NULL);
+//    cout.tie(NULL);
+//    cin >> n >> m;
+//    int x1, y1;
+//    for (int i = 0; i < m; i++) {
+//        cin >> x1 >> y1;
+//        a1[x1 - 1][y1 - 1] = true;
+//        a2[y1 - 1][x1 - 1] = true;
+//    }
+//
+//    cin >> from >> to;
+//    from--; to--;
+//
+//    visited1[to] = 1;
+//    visited3[from] = 1;
+//    dfs(from, visited1, a1);
+//    dfs(to, visited2, a2);
+//
+//    dfs(to, visited3, a1);
+//
+//    for (int i = 0; i < n; i++) {
+//        if (visited3[i]) cout << "i : " << i << '\n';
+//    }
+//
+//    dfs(from, visited4, a2);
+//
+//    for (int i = 0; i < n; i++) {
+//
+//        if (visited1[i] && visited2[i] && visited3[i] && visited4[i]) {
+//            ret++; //cout << "i: " << i << '\n';
+//        }
+//    }
+//
+//    cout << ret - 2;
+//    return 0;
+//}
