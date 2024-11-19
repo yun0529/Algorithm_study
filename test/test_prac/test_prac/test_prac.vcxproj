@@ -128,7 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binary_prac.cpp" />
+    <ClCompile Include="LIS_prac.cpp" />
     <ClCompile Include="permutation, combi.cpp" />
+    <ClCompile Include="swea6293.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

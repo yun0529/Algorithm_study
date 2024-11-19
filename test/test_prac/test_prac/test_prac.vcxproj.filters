@@ -18,5 +18,14 @@
     <ClCompile Include="permutation, combi.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="swea6293.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LIS_prac.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_prac.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
