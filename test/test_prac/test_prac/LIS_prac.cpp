@@ -29,9 +29,9 @@ using namespace std;
 //int n, arr[1001], cnt[1001], ret = 1, idx, prev_list[1001];
 //vector<int> v;
 //void go(int idx) {
-//	if (idx == -1)return;
+//	if (idx == -1)return; // prev_list를 -1로 초기화 했기 때문에 -1이면 처음 들어온 값에서 넘어온거임.
 //	v.push_back(arr[idx]);
-//	go(prev_list[idx]);
+//	go(prev_list[idx]); // 이전값 탐색
 //	return;
 //}
 //int main() {
@@ -49,8 +49,8 @@ using namespace std;
 //				cnt[i] = cnt[j] + 1;
 //				prev_list[i] = j;
 //				if (ret < cnt[i]) {
-//					ret = cnt[i];
-//					idx = i;
+//					ret = cnt[i]; // 개수 저장
+//					idx = i; // 마지막 숫자의 index 저장
 //				}
 //			}
 //		}
@@ -73,28 +73,28 @@ using namespace std;
 
 // 시간복잡도 O(logn)으로 줄인거
 //백준 2565
-int n, arr[100001], len, num;
-int a, b;
-pair<int, int> p[100001];
-int main() {
-
-	cin >> n;
-	for (int i = 0; i < n; i++) {
-		cin >> a >> b;
-		p[i] = { a,b };
-	}
-	sort(p, p + n);
-
-	for (int i = 0; i < n; i++) {
-		//cin >> num;
-		auto lowerPos = lower_bound(arr, arr + len, p[i].second); // num보다 크거나 같은 위치 찾기
-		if (*lowerPos == 0) len++;
-		*lowerPos = p[i].second;
-		//for (int j = 0; j < n; j++) {
-		//	printf("%d ", arr[j]);
-		//}
-		//printf("\n");
-	}
-	cout << n - len;
-	return 0;
-}
+//int n, arr[100001], len, num;
+//int a, b;
+//pair<int, int> p[100001];
+//int main() {
+//
+//	cin >> n;
+//	for (int i = 0; i < n; i++) {
+//		cin >> a >> b;
+//		p[i] = { a,b };
+//	}
+//	sort(p, p + n);
+//
+//	for (int i = 0; i < n; i++) {
+//		//cin >> num;
+//		auto lowerPos = lower_bound(arr, arr + len, p[i].second); // num보다 크거나 같은 위치 찾기
+//		if (*lowerPos == 0) len++; // 찾지 못한 경우 -> 가장 끝 지점 주소 저장 -> arr+len이기 때문에 len에 저장됨.
+//		*lowerPos = p[i].second;
+//		//for (int j = 0; j < n; j++) {
+//		//	printf("%d ", arr[j]);
+//		//}
+//		//printf("\n");
+//	}
+//	cout << n - len;
+//	return 0;
+//}

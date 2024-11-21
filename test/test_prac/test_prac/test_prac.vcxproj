@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="14002.cpp" />
     <ClCompile Include="binary_prac.cpp" />
     <ClCompile Include="LIS_prac.cpp" />
     <ClCompile Include="permutation, combi.cpp" />
