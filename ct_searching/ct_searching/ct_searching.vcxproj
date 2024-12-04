@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7b429767-8706-4a0d-94d8-b19734053e73}</ProjectGuid>
-    <RootNamespace>ctimplementation</RootNamespace>
+    <ProjectGuid>{5e5e4091-03cc-4fa8-8d0f-05b066a8c9a0}</ProjectGuid>
+    <RootNamespace>ctsearching</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1212.cpp" />
-    <ClCompile Include="1244.cpp" />
-    <ClCompile Include="14467.cpp" />
-    <ClCompile Include="20546.cpp" />
-    <ClCompile Include="2578.cpp" />
-    <ClCompile Include="4396.cpp" />
-    <ClCompile Include="22856.cpp" />
+    <ClCompile Include="1189.cpp" />
+    <ClCompile Include="1260.cpp" />
+    <ClCompile Include="14501.cpp" />
+    <ClCompile Include="14620.cpp" />
+    <ClCompile Include="1987.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
