@@ -16,5 +16,35 @@
 * => idx에서 필요한 값에 따라 2차원, 3차원 늘려나감.
 * 
 * 맵, 셋, 배열 등에 상태값을 저장함
+* 
+* xor 으로 상태값 변경하면 쉽게 바꿔서 재귀에 전달할 수 있음.
+* dp는 반환값이 무조건 있음.
+* DP = 초기화, 기저사례, 메모이제이션, 로직
+* 
+* Top Down : 재귀 함수이기에 직관적이지만 오버헤드가 큼. 하지만 꼭 필요한 dp만을 만들 수 있음
+* Bottom Up : 반복문이기에 재귀가 아님. 하지만 모든 dp를 만들어버림.
+* 속도는 보통 Bottom Up이 빠름. 
 */
 
+//#include <bits/stdc++.h>
+//using namespace std;
+//int dp[1004][2][34], n, m, b[1004];
+//
+//int go(int idx, int tree, int cnt) {
+//	if (cnt < 0)return -1e9; // 음수인 경우 매우 낮은 값을 반환해서 더 못감을 알림
+//	if (idx == n)return cnt == 0 ? 0 : -1e9; // 기저사례 n번 했다면 리턴
+//	int& ret = dp[idx][tree][cnt]; // 참조로 받아서 수정해서 dp에도 반영
+//	if (~ret) return ret; // -가 아니라면 값이 들어가 있다면 이전에 했던것이기 때문에 그냥 반환하면 됨.
+//	return ret = max(go(idx + 1, tree ^ 1, cnt - 1), go(idx + 1, tree, cnt)) + (tree == b[idx] - 1);
+//	// 현재 나무에 머무르거나 다른 나무로 이동하는 경우 중 최대 값 선택
+//	// 경우의 수 중 max값 + 지금의 idx가 tree와 같은지
+//}
+//
+//int main() {
+//	memset(dp, -1, sizeof(dp));
+//	cin >> n >> m;
+//	for (int i = 0; i < n; i++)cin >> b[i];
+//	cout << max(go(0, 1, m - 1), go(0, 0, m)) << '\n';
+//
+//	return 0;
+//}
