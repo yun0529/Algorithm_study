@@ -130,6 +130,7 @@
     <ClCompile Include="1212.cpp" />
     <ClCompile Include="1244.cpp" />
     <ClCompile Include="14467.cpp" />
+    <ClCompile Include="14719.cpp" />
     <ClCompile Include="16719.cpp" />
     <ClCompile Include="16719_ans.cpp" />
     <ClCompile Include="16926.cpp" />
