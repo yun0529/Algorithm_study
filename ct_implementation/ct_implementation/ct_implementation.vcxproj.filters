@@ -15,19 +15,49 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6247.cpp">
+    <ClCompile Include="1212.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6246.cpp">
+    <ClCompile Include="14467.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6248.cpp">
+    <ClCompile Include="20546.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="swea1206.cpp">
+    <ClCompile Include="2578.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="swea1208.cpp">
+    <ClCompile Include="4396.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1244.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="22856.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1913.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2615.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2615_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16926.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20436.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16719.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16719_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14719.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
