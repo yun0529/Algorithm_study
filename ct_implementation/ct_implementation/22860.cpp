@@ -3,11 +3,11 @@
 using namespace std;
 
 int n, m;
-map <string, int> mp;
-vector<pair<string, int>> v[1001];
-vector<pair<int, int>> ret;
+// 상위 폴더가 key, 값은 파일 또는 하위 폴더
+map<string, pair<string, int>> mp;
 int main() {
-
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL); cout.tie(NULL);
 	// 폴더의 개수 n, 파일의 개수 m
 	// main 입력
 	// c : 폴더면 1, 파일이면 0
@@ -15,14 +15,18 @@ int main() {
 
 	cin >> n >> m;
 	string up, down;
+	
 	int t;
 	for (int i = 0; i < n + m; i++) {
 		cin >> up >> down >> t;
 		if (t == 0) { //파일인 경우 map에서 ++;
 			mp[up]++;
+			for (int j = 0; j <= i; j++) {
+				if(v[j][0].first == )
+			}
 		}
 		else {
-			v.push_back({ up,down,t });
+			v.push_back({ up,down });
 		}
 	}
 	int q;
