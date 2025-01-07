@@ -127,9 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="dp.cpp" />
+    <ClCompile Include="24416.cpp" />
+    <ClCompile Include="9184.cpp" />
+    <ClCompile Include="dp_2240.cpp" />
+    <ClCompile Include="dp_ex_3_2748.cpp" />
     <ClCompile Include="dp_ex_1.cpp" />
-    <ClCompile Include="dp_ex_2.cpp" />
+    <ClCompile Include="dp_ex_2_15989.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
