@@ -32,7 +32,7 @@
 //
 //int go(int idx, int tree, int cnt) {
 //	if (cnt < 0)return -1e9; // 음수인 경우 매우 낮은 값을 반환해서 더 못감을 알림
-//	if (idx == n)return cnt == 0 ? 0 : -1e9; // 기저사례 n번 했다면 리턴
+//	if (idx == n)return cnt == 0 ? 0 : -1e9; // 기저사례 : n번 했다면 리턴
 //	int& ret = dp[idx][tree][cnt]; // 참조로 받아서 수정해서 dp에도 반영
 //	if (~ret) return ret; // -가 아니라면 값이 들어가 있다면 이전에 했던것이기 때문에 그냥 반환하면 됨.
 //	return ret = max(go(idx + 1, tree ^ 1, cnt - 1), go(idx + 1, tree, cnt)) + (tree == b[idx] - 1);
