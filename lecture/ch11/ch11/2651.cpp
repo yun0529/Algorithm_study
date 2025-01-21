@@ -1,15 +1,15 @@
-#if 0
+#if 01
 #include <bits/stdc++.h>
 using namespace std;
-
-int limit, n, dist_sum[104], set_time[104], dp[104], post[104];
+typedef long long ll;
+ll limit, n, dist_sum[104], set_time[104], dp[104], post[104];
 
 int main() {
 	cin >> limit >> n;
 	int x;
 	for (int i = 1; i <= n+1; ++i) {
 		cin >> x;
-		dp[i] = 2147483647;
+		dp[i] = 4147483647;
 		dist_sum[i] = x + dist_sum[i - 1];
 	}
 	for (int i = 1; i <= n; ++i) {
