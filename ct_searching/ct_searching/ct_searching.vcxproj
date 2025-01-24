@@ -128,14 +128,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10815.cpp" />
+    <ClCompile Include="11279.cpp" />
     <ClCompile Include="1189.cpp" />
     <ClCompile Include="1260.cpp" />
     <ClCompile Include="14501.cpp" />
     <ClCompile Include="14620.cpp" />
     <ClCompile Include="15686.cpp" />
     <ClCompile Include="14891.cpp" />
+    <ClCompile Include="1655.cpp" />
+    <ClCompile Include="1920.cpp" />
+    <ClCompile Include="1927.cpp" />
     <ClCompile Include="1987.cpp" />
     <ClCompile Include="6998.cpp" />
+    <ClCompile Include="7569.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
