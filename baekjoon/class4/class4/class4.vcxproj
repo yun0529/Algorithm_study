@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b98bde82-d1d4-412d-873a-002c356557be}</ProjectGuid>
-    <RootNamespace>ch6</RootNamespace>
+    <ProjectGuid>{873db2d6-9367-402e-9a51-d7923c53228d}</ProjectGuid>
+    <RootNamespace>class4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,33 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1012.cpp" />
-    <ClCompile Include="1068.cpp" />
-    <ClCompile Include="10709.cpp" />
-    <ClCompile Include="1325.cpp" />
-    <ClCompile Include="1436.cpp" />
-    <ClCompile Include="14502.cpp" />
-    <ClCompile Include="14940.cpp" />
-    <ClCompile Include="16236.cpp" />
-    <ClCompile Include="17298.cpp" />
-    <ClCompile Include="1992.cpp" />
-    <ClCompile Include="2178.cpp" />
-    <ClCompile Include="2468.cpp" />
-    <ClCompile Include="2583.cpp" />
-    <ClCompile Include="2636.cpp" />
-    <ClCompile Include="2828.cpp" />
-    <ClCompile Include="2852.cpp" />
-    <ClCompile Include="2870.cpp" />
-    <ClCompile Include="2910.cpp" />
-    <ClCompile Include="3474.cpp" />
-    <ClCompile Include="4659.cpp" />
-    <ClCompile Include="9012.cpp" />
-    <ClCompile Include="basic.cpp" />
-    <ClCompile Include="BFS.cpp" />
-    <ClCompile Include="BFS_ex.cpp" />
-    <ClCompile Include="DFS&amp;BFS.cpp" />
-    <ClCompile Include="DFS.cpp" />
-    <ClCompile Include="TreeTraversal.cpp" />
+    <ClCompile Include="13549.cpp" />
+    <ClCompile Include="1991.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
