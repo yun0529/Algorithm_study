@@ -93,7 +93,10 @@
     <ClCompile Include="14940.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="16236.cpp">
+    <ClCompile Include="16236_x.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16236_re.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
