@@ -1,4 +1,4 @@
-#if 01
+#if 0
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -9,7 +9,8 @@ stack<char> st, op;
 int main() {
 
 	cin >> str;
-	for (int i = str.length();i >= 0;--i) {
+	// 개행문자... - 1 꼭 해주기..
+	for (int i = str.length() - 1; i >= 0; --i) {
 		st.push(str[i]);
 	}
 	while (st.size()) {
@@ -17,44 +18,48 @@ int main() {
 			cout << st.top();
 			st.pop();
 		}
-		else {
-			if (op.empty() || st.top() == '/' || st.top() == '*') {
+		else if (st.top() == '(') {
+			op.push(st.top());
+			st.pop();
+		}
+		else if (st.top() == ')') {
+			while (op.top() != '(') {
+				cout << op.top();
+				op.pop();
+			}
+			st.pop();
+			op.pop();
+		}
+		else { // 연산자들
+			if (op.empty()) {
 				op.push(st.top());
 				st.pop();
 			}
-			else {
-				// st.top 이 괄호인 경우
-				if (st.top() == ')') {
-					// (가 나오면 ) 수만큼 op 출력
+			else if ((st.top() == '-' || st.top() == '+') && (op.top() == '*' || op.top() == '/')) {
+				while (op.size() &&  op.top() != '(' ) {
 					cout << op.top();
 					op.pop();
-					st.pop(); // 괄호 제거
-					if (!op.empty() && op.top() == '(') {
-						op.pop();
-					}
 				}
-				// st.top 이 /, * 다음 -, + 인 경우
-				else if ((st.top() == '-' || st.top() == '+') && (op.top() == '*' || op.top() == '/')) {
-					while (op.size() && op.top() != '(') {
-						cout << op.top();
-						op.pop();
-					}
-					if (!op.empty() && op.top() == '(') {
-						op.pop();
-					}
+			}
+			else if ((st.top() == '-' || st.top() == '+') && (op.top() == '+' || op.top() == '-')) {
+				while (op.size() && op.top() != '(') {
+					cout << op.top();
+					op.pop();
 				}
-				else {
-					op.push(st.top());
-					st.pop();
+			}
+			else if ((st.top() == '*' || st.top() == '/') && (op.top() == '*' || op.top() == '/')) {
+				while (op.size() && op.top() != '(' && op.top() != '+' && op.top() != '-') {
+					cout << op.top();
+					op.pop();
 				}
+			}
+			else {
+				op.push(st.top());
+				st.pop();
 			}
 		}
 	}
 	while (op.size()) {
-		if (op.top() == '(') {
-			op.pop();
-			continue;
-		}
 		cout << op.top();
 		op.pop();
 	}
