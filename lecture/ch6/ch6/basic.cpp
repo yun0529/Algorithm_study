@@ -59,9 +59,9 @@
 // 
 // 
 
-#include <bits/stdc++.h>
-using namespace std;
-const int V = 10;
+//#include <bits/stdc++.h>
+//using namespace std;
+//const int V = 10;
 
 //bool a[V][V], visited[V]; // 인접행렬 정의
 //
