@@ -1,4 +1,4 @@
-#if 01
+#if 0
 #include <iostream>
 #include <string>
 #include <vector>
@@ -6,6 +6,7 @@ using namespace std;
 
 string str1, str2;
 int dp[1004][1004];
+char prev_list[1004];
 vector<char> v;
 
 int main() {
@@ -26,17 +27,34 @@ int main() {
 		}
 	}
 	int ret = dp[len2][len1];
-	for (int i = len2;i >= 1;--i) {
-		for (int j = len1;j >= 1;--j) {
-			if (str2[i - 1] == str1[j - 1]) {
-				if (dp[i][j] == ret) {
-					//cout << ret << ", " << str1[j-1] << '\n';
-					v.push_back(str1[j-1]);
-					ret -= 1;
-				}
-			}
+	int i = len2;
+	int j = len1;
+	while (i > 0 && j > 0) {
+		if (dp[i][j] == dp[i][j - 1]) {
+			j--;
+		}
+		else if (dp[i][j] == dp[i - 1][j]) {
+			i--;
+		}
+		else {
+			v.push_back(str2[i - 1]);
+			i--;
+			j--;
 		}
 	}
+
+	//for (int i = len2;i >= 1;--i) {
+	//	for (int j = len1;j >= 1;--j) {
+	//		if (str2[i - 1] == str1[j - 1]) {
+	//			if (dp[i][j] == ret) {
+	//				//cout << ret << ", " << str1[j-1] << '\n';
+	//				v.push_back(str2[i-1]);
+	//				ret -= 1;
+	//				j = i;
+	//			}
+	//		}
+	//	}
+	//}
 	//for (int i = 0;i <= len2;++i) {
 	//	for (int j = 0;j <= len1;++j) {
 	//		cout << dp[i][j] << ' ';
@@ -44,7 +62,7 @@ int main() {
 	//	cout << '\n';
 	//}
 	cout << dp[len2][len1] << '\n';
-	for (int i = v.size() - 1;i >= 0;--i) {
+	for (int i = v.size() - 1; i >= 0; --i) {
 		cout << v[i];
 	}
 	return 0;
