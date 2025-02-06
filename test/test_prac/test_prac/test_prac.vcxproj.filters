@@ -57,5 +57,17 @@
     <ClCompile Include="leveltreeorder.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="softeer6247.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="softeer6248.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="softeer7727.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="softeer7649.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
