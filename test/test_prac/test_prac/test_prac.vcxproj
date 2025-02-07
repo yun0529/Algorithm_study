@@ -144,7 +144,9 @@
     <ClCompile Include="softeer6247.cpp" />
     <ClCompile Include="softeer6248.cpp" />
     <ClCompile Include="softeer7649.cpp" />
+    <ClCompile Include="softeer7726.cpp" />
     <ClCompile Include="softeer7727.cpp" />
+    <ClCompile Include="softeer9495.cpp" />
     <ClCompile Include="swea6293.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

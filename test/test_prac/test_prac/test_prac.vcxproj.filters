@@ -69,5 +69,11 @@
     <ClCompile Include="softeer7649.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="softeer7726.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="softeer9495.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
