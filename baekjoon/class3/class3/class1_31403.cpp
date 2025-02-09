@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-#if 01
+#if 0
 
 int a, b, c;
 int main() {
