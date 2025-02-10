@@ -5,6 +5,18 @@
 // Union: 서로 다른 두 집합을 결합하는 작업
 // Find : 특정 원소가 속한 집합의 대표 원소를 찾아보는 작업
 // 
+// 1. 대표 노드를 저장할 배열의 초기화
+//  -> 자기 자신을 대표 노드로 (arr[idx] = idx)
+// union(1,4) 하면 1과 4를 연결한다는 것. , union(5,6)
+//  -> 4의 대표 노드는 1이다.
+// union(4,6) 할려면 4의 대표노드를 찾아야함. -> find(4)
+//  -> 4의 대표노드로 이동 -> 1이다.
+// 6의 대표노드 : find(6) -> arr[6] = 5로 되어있음 
+//  -> arr[5] = 5 이지만, 1로 연결하기 위해 arr[5], arr[6] = 1로 해줌
+// 대표노드를 찾는 과정 -> 재귀함수로 구현 그 과정에서의 모든 노드를 
+// 대표노드로 설정한다.
+// 
+
 /*
 6 5
 0 1
@@ -13,7 +25,58 @@
 4 3
 2 5
 */
-#if 01
+#if 0
+#include <iostream>
+
+using namespace std;
+int n, m, cnt;
+int parent[100];
+
+int find(int now) {
+	if (parent[now] == now) return now; // now가 대표노드이면 종료
+	return parent[now] = find(parent[now]); // now 노드에 부모를 저장
+}
+
+void uni(int a, int b) {
+	a = find(a);
+	b = find(b);
+	if (a != b) {
+		// 그냥 기준 노드 source 노드를 
+		// 대표로 설정해버릴 수 있음.
+		parent[b] = a; 
+		
+		// 크기가 작은 노드를 기준 노드로 설정
+		//if (a < b) 
+		//	parent[b] = a;
+		//else
+		//	parent[a] = b;
+	}
+}
+
+int main() {
+
+	cin >> n >> m;
+	for (int i = 0; i < n; i++) {
+		parent[i] = i;
+	}
+	int a, b;
+	for (int i = 0; i < m; i++) {
+		cin >> a >> b;
+		uni(a, b);
+	}
+
+	for (int i = 0; i < n; i++) {
+		// 3 0 2 3 3 2 -> parent[1] = 0 
+		// parent[0] = 3으로 설정되었기 때문에 상관없음.
+		cout << parent[i] << ' '; 
+		if (parent[i] == i) cnt++; 
+	}
+	cout << '\n' << cnt;
+	return 0;
+}
+#endif
+
+#if 0
 #include <iostream>
 
 using namespace std;
@@ -69,8 +132,9 @@ int main() {
 	// 집합의 개수 = 대표원소의 개수 이므로,
 	// 본인이 대표원소라면, cnt에 추가
 	for (int i = 0; i < N; i++) {
+		cout << parent[i] << ' ';
 		if (Find(i) == i) cnt++;
-	}
+	}cout << '\n';
 
 	cout << cnt; // 2
 }
