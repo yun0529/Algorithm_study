@@ -148,6 +148,7 @@
     <ClCompile Include="softeer7727.cpp" />
     <ClCompile Include="softeer9495.cpp" />
     <ClCompile Include="swea6293.cpp" />
+    <ClCompile Include="union_find_prac.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
