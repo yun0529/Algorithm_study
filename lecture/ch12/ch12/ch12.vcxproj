@@ -130,6 +130,7 @@
     <ClCompile Include="2042_FenwickTreee.cpp" />
     <ClCompile Include="1753_Dijkstra.cpp" />
     <ClCompile Include="Fenwick Tree.cpp" />
+    <ClCompile Include="Floyd_Warshall.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
