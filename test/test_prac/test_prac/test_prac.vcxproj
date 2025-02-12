@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1043.cpp" />
     <ClCompile Include="1068_tree.cpp" />
     <ClCompile Include="14002.cpp" />
     <ClCompile Include="14244.cpp" />
