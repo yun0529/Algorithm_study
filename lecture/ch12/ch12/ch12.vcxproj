@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="2042_FenwickTreee.cpp" />
     <ClCompile Include="1753_Dijkstra.cpp" />
+    <ClCompile Include="11657_Bellman-Ford.cpp" />
     <ClCompile Include="Fenwick Tree.cpp" />
     <ClCompile Include="Floyd_Warshall.cpp" />
   </ItemGroup>
