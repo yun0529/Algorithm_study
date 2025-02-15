@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="11779.cpp" />
     <ClCompile Include="2042_FenwickTreee.cpp" />
     <ClCompile Include="1753_Dijkstra.cpp" />
     <ClCompile Include="11657_Bellman-Ford.cpp" />
