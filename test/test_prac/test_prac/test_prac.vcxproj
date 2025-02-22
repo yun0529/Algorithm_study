@@ -140,6 +140,7 @@
     <ClCompile Include="2565.cpp" />
     <ClCompile Include="2670.cpp" />
     <ClCompile Include="28215.cpp" />
+    <ClCompile Include="4195.cpp" />
     <ClCompile Include="6998.cpp" />
     <ClCompile Include="9935.cpp" />
     <ClCompile Include="binary_prac.cpp" />
