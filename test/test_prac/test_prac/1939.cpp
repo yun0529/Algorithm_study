@@ -1,4 +1,4 @@
-#if 0
+#if 01
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -38,7 +38,6 @@ void binary_search() {
         if (go(st, mid)) { // 옮기는 무게를 목적지까지 옮길 수 있으면 무게 증가
             l = mid + 1;
             mx = mid;
-
         }
         else {
             r = mid - 1;
@@ -61,7 +60,8 @@ void input_data() {
 int main(int argc, char** argv)
 {
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);cout.tie(NULL);
+    cin.tie(NULL); cout.tie(NULL);
+
     input_data();
     binary_search();
     return 0;
