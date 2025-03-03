@@ -1,12 +1,13 @@
 package template_method_pattern;
 
 public abstract class AbstGameConnectHelper {
-    //  외부 노출되면 안됨 하지만 private로 선언하면 하위 클래스가 재정의 못함
+    //  외부 노출되면 안됨 하지만 그렇다고 private로 선언하면 하위 클래스가 재정의 못함
     protected abstract String doSecurity(String string);
     protected abstract boolean authentication(String id, String password);
     protected abstract int authorization(String userName);
     protected abstract String connection(String info);
 
+    // 템플릿 메서드
     public String requestConnection(String encodedInfo) {
 
         // 보안 작업 -> 암호화 된 문자열을 복호화 한다.

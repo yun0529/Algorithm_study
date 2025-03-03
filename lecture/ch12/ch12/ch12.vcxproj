@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5e5e4091-03cc-4fa8-8d0f-05b066a8c9a0}</ProjectGuid>
-    <RootNamespace>ctsearching</RootNamespace>
+    <ProjectGuid>{c2152c3f-16ed-414f-b0fb-5ce6a6349a08}</ProjectGuid>
+    <RootNamespace>ch12</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,21 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="10815.cpp" />
-    <ClCompile Include="11279.cpp" />
-    <ClCompile Include="1189.cpp" />
-    <ClCompile Include="1260.cpp" />
-    <ClCompile Include="14501.cpp" />
-    <ClCompile Include="14620.cpp" />
-    <ClCompile Include="15686.cpp" />
-    <ClCompile Include="14891.cpp" />
-    <ClCompile Include="1655.cpp" />
-    <ClCompile Include="1920.cpp" />
-    <ClCompile Include="1927.cpp" />
-    <ClCompile Include="1987.cpp" />
-    <ClCompile Include="2110.cpp" />
-    <ClCompile Include="6998.cpp" />
-    <ClCompile Include="7569.cpp" />
+    <ClCompile Include="11779.cpp" />
+    <ClCompile Include="2042_FenwickTreee.cpp" />
+    <ClCompile Include="1753_Dijkstra.cpp" />
+    <ClCompile Include="11657_Bellman-Ford.cpp" />
+    <ClCompile Include="Fenwick Tree.cpp" />
+    <ClCompile Include="Floyd_Warshall.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

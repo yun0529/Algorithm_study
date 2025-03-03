@@ -128,12 +128,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1043.cpp" />
     <ClCompile Include="1068_tree.cpp" />
     <ClCompile Include="14002.cpp" />
     <ClCompile Include="14244.cpp" />
+    <ClCompile Include="16235.cpp" />
+    <ClCompile Include="1939.cpp" />
+    <ClCompile Include="1976.cpp" />
+    <ClCompile Include="20366.cpp" />
+    <ClCompile Include="23288.cpp" />
     <ClCompile Include="2565.cpp" />
     <ClCompile Include="2670.cpp" />
     <ClCompile Include="28215.cpp" />
+    <ClCompile Include="4195.cpp" />
     <ClCompile Include="6998.cpp" />
     <ClCompile Include="9935.cpp" />
     <ClCompile Include="binary_prac.cpp" />
@@ -141,7 +148,14 @@
     <ClCompile Include="LIS_prac.cpp" />
     <ClCompile Include="permutation, combi.cpp" />
     <ClCompile Include="prog_boat.cpp" />
+    <ClCompile Include="softeer6247.cpp" />
+    <ClCompile Include="softeer6248.cpp" />
+    <ClCompile Include="softeer7649.cpp" />
+    <ClCompile Include="softeer7726.cpp" />
+    <ClCompile Include="softeer7727.cpp" />
+    <ClCompile Include="softeer9495.cpp" />
     <ClCompile Include="swea6293.cpp" />
+    <ClCompile Include="union_find_prac.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

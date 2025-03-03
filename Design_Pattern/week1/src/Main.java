@@ -30,15 +30,14 @@ public class Main {
     public static void main(String[] args) {
 
         // 전략 패턴
-//        // 인터페이스 선언 및 할당
+        // 인터페이스 선언 및 할당
 //        Ainterface ainterface = new AinterfaceImpl();
 //
-//
-////        ainterface.funcA(); // 통로
+//        ainterface.funcA(); // 통로
 //
 //        // 위임해서 구현
-////        AObj aObj = new AObj();
-////        aObj.funcAA();
+//        AObj aObj = new AObj();
+//        aObj.funcAA();
 //
 //        GameCharacter character = new GameCharacter();
 //        character.attack();
@@ -52,14 +51,14 @@ public class Main {
 //        character.setWeapon(new Axe()); // 효율적으로 추가 가능
 //        character.attack();
 
-//        //Math 클래스에 이미 도배, 반을 구하는 함수는 정의되어 있음
+        //Math 클래스에 이미 도배, 반을 구하는 함수는 정의되어 있음
 //        Adapter adapter = new AdapterImpl();
 //        // 주어진 함수를 바로 사용하지 못하기 때문에 Adapter를 사용해서 변경한 뒤 사용
 //        System.out.println(adapter.twiceOf(100.0f));
 //        System.out.println(adapter.halfOf(100.0f));
 
-        AbstGameConnectHelper helper = new DefaultGameConnection();
-        // helper.connection 은 protected로 선언되었기 때문에 다른 패키지에서 접속 안됨.
-        helper.requestConnection("아이디 암호 등 접속 정보");
+//        AbstGameConnectHelper helper = new DefaultGameConnection();
+//        // helper.connection 은 protected로 선언되었기 때문에 다른 패키지에서 접속 안됨.
+//        helper.requestConnection("아이디 암호 등 접속 정보");
     }
 }
