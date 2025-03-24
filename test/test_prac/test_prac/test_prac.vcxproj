@@ -132,11 +132,15 @@
     <ClCompile Include="1068_tree.cpp" />
     <ClCompile Include="14002.cpp" />
     <ClCompile Include="14244.cpp" />
+    <ClCompile Include="14442.cpp" />
     <ClCompile Include="16235.cpp" />
+    <ClCompile Include="1717.cpp" />
+    <ClCompile Include="17498.cpp" />
     <ClCompile Include="1939.cpp" />
     <ClCompile Include="1976.cpp" />
     <ClCompile Include="20366.cpp" />
     <ClCompile Include="23288.cpp" />
+    <ClCompile Include="2473.cpp" />
     <ClCompile Include="2565.cpp" />
     <ClCompile Include="2670.cpp" />
     <ClCompile Include="28215.cpp" />
