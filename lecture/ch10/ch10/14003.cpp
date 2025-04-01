@@ -24,7 +24,7 @@ int main() {
 }
 #endif // lower_bound 실패
 
-#if 01
+#if 0
 #include <iostream> 
 #include <vector>
 #include <algorithm>
@@ -63,7 +63,7 @@ int main() {
 	int max_len = *max_element(dp, dp + n) + 1; // len 과 동일
 	cout << max_len << '\n';
 	vector<int> ret;
-	for (int i = n - 1; i >= 0 && max_len > 0; i--) {
+	for (int i = n - 1; i >= 0 && max_len > 0; i--) { // 먼저 나오는 max_len과 비교해서 가장 긴 증가 수열로 출력
 		//cout << dp[i] << ' ';
 		if (dp[i] == max_len - 1) {
 			ret.push_back(v[i]);

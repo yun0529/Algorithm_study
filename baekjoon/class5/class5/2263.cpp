@@ -1,24 +1,26 @@
-#if 01
+#if 0
 #include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
 
 int n;
-int in[100004], post[100004];
+int in[100004], in_idx[100004], post[100004];
 
-void pre(int root, int st, int ed) {
-	if (st<0 || ed >= n || st > ed) return;
-	int r = root;
-	int root_idx = find(in + st, in + ed, r) - in;
+void pre(int in_st,int in_ed, int po_st, int po_ed) {
+	if (in_st > in_ed || po_st > po_ed) return;
 
-	int l_len = root_idx;
-	int r_len = n - 1 - root_idx;
+	int root = post[po_ed];
+	//int in_root_idx = find(in + in_st, in + in_ed, root) - in;
+	int in_root_idx = in_idx[post[po_ed]]; // 탐색하지 않고 바로 값을 가져올 수 있음.
 
-	cout << in[root_idx] << ", " << root_idx << '\n';
-	//cout << in[root_idx] << ' ';
-	pre(post[st + l_len], st, root_idx - 1);
-	pre(post[l_len + r_len], root_idx + 1, ed);
+	int l_len = in_root_idx - in_st - 1;
+	int r_len = in_ed - in_root_idx;
+
+	//cout << in[root_idx] << ", " << root_idx << '\n';
+	cout << in[in_root_idx] << ' ';
+	pre(in_st, in_root_idx - 1, po_st, po_st + l_len);
+	pre(in_root_idx+1, in_ed, po_st + l_len + 1, po_ed - 1);
 }
 
 int main()
@@ -29,13 +31,13 @@ int main()
 	cin >> n;
 	for (int i = 0;i < n;i++) {
 		cin >> in[i];
+		in_idx[in[i]] = i; // inorder의 값에 해당하는 index 저장 => 시간 감소..!
 	}
 	for (int i = 0;i < n;i++) {
 		cin >> post[i];
 	}
-	int root = post[n - 1];
 
-	pre(root, 0, n-1);
+	pre(0, n - 1, 0, n - 1);
 
 	return 0;
 }
