@@ -150,6 +150,7 @@
     <ClCompile Include="6998.cpp" />
     <ClCompile Include="9935.cpp" />
     <ClCompile Include="binary_prac.cpp" />
+    <ClCompile Include="codetree_artist.cpp" />
     <ClCompile Include="leveltreeorder.cpp" />
     <ClCompile Include="LIS_prac.cpp" />
     <ClCompile Include="permutation, combi.cpp" />
