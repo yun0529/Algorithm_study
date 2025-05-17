@@ -235,7 +235,7 @@ int main() {
 
 #endif // 실패 -> 틀림 -> 순열 구성에서 틀린듯...
 
-#if 01
+#if 0
 #include <iostream>
 #include <vector>
 #include <queue>
