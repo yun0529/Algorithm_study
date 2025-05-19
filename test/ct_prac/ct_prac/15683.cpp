@@ -70,7 +70,6 @@ void go(int cnt) {
 
 			if (arr[y][x] == '1') {
 				search(y, x, i);
-				
 			}
 			else if (arr[y][x] == '2') {
 				search(y, x, i);
