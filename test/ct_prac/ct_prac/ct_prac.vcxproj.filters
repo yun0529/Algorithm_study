@@ -27,7 +27,28 @@
     <ClCompile Include="15683.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2179.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="18809.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="union_find_prac.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20040.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="27172.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1941.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1689.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_emoticons.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
