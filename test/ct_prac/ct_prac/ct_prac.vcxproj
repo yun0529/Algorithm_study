@@ -130,6 +130,8 @@
     <ClCompile Include="1689.cpp" />
     <ClCompile Include="1238.cpp" />
     <ClCompile Include="1941.cpp" />
+    <ClCompile Include="20055.cpp" />
+    <ClCompile Include="2665.cpp" />
     <ClCompile Include="27172.cpp" />
     <ClCompile Include="15683.cpp" />
     <ClCompile Include="18809.cpp" />
@@ -137,6 +139,8 @@
     <ClCompile Include="2146.cpp" />
     <ClCompile Include="2170.cpp" />
     <ClCompile Include="2179.cpp" />
+    <ClCompile Include="6987.cpp" />
+    <ClCompile Include="8892.cpp" />
     <ClCompile Include="prog_emoticons.cpp" />
     <ClCompile Include="union_find_prac.cpp" />
   </ItemGroup>
