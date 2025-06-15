@@ -95,7 +95,7 @@ int main() {
 }
 #endif // 01
 
-#if 01 // 수정
+#if 0 // 수정
 #include <iostream>
 #include <vector>
 using namespace std;
