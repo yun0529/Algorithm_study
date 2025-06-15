@@ -138,7 +138,9 @@
     <ClCompile Include="17498.cpp" />
     <ClCompile Include="1939.cpp" />
     <ClCompile Include="1976.cpp" />
+    <ClCompile Include="20187.cpp" />
     <ClCompile Include="20366.cpp" />
+    <ClCompile Include="2146.cpp" />
     <ClCompile Include="23288.cpp" />
     <ClCompile Include="2473.cpp" />
     <ClCompile Include="2565.cpp" />
@@ -148,6 +150,11 @@
     <ClCompile Include="6998.cpp" />
     <ClCompile Include="9935.cpp" />
     <ClCompile Include="binary_prac.cpp" />
+<<<<<<< HEAD
+    <ClCompile Include="codetree_artist.cpp" />
+=======
+    <ClCompile Include="codetree_namukill.cpp" />
+>>>>>>> 203b9a06e1b91e89d0a7e89be0fc1ece732adff6
     <ClCompile Include="leveltreeorder.cpp" />
     <ClCompile Include="LIS_prac.cpp" />
     <ClCompile Include="permutation, combi.cpp" />

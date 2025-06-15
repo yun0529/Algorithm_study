@@ -15,113 +15,79 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="permutation, combi.cpp">
+    <ClCompile Include="2146.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="swea6293.cpp">
+    <ClCompile Include="1238.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="LIS_prac.cpp">
+    <ClCompile Include="2170.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="binary_prac.cpp">
+    <ClCompile Include="15683.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14002.cpp">
+    <ClCompile Include="2179.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2565.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2670.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="28215.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9935.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="prog_boat.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6998.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14244.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1068_tree.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="leveltreeorder.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="softeer6247.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="softeer6248.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="softeer7727.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="softeer7649.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="softeer7726.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="softeer9495.cpp">
+    <ClCompile Include="18809.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="union_find_prac.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1976.cpp">
+    <ClCompile Include="20040.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1043.cpp">
+    <ClCompile Include="27172.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="23288.cpp">
+    <ClCompile Include="1941.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="16235.cpp">
+    <ClCompile Include="1689.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="20366.cpp">
+    <ClCompile Include="prog_emoticons.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1939.cpp">
+    <ClCompile Include="2665.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4195.cpp">
+    <ClCompile Include="8892.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1717.cpp">
+    <ClCompile Include="20055.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2473.cpp">
+    <ClCompile Include="6987.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="17498.cpp">
+    <ClCompile Include="binary_prac.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14442.cpp">
+    <ClCompile Include="leveltreeorder.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2146.cpp">
+    <ClCompile Include="LIS_prac.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="codetree_namukill.cpp">
-=======
-    <ClCompile Include="20187.cpp">
->>>>>>> d720639547e68d533cad006d061c81aae84a9f00
+    <ClCompile Include="test.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="codetree_artist.cpp">
+    <ClCompile Include="string_sub.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15705.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1339.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1197.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12100.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

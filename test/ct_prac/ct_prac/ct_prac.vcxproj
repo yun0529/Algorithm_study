@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cda48146-e0e8-4233-98a2-1e15c75fa7f1}</ProjectGuid>
-    <RootNamespace>class5</RootNamespace>
+    <ProjectGuid>{e01816b9-3430-45ec-9461-b260d3d00d46}</ProjectGuid>
+    <RootNamespace>ctprac</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="10942.cpp" />
-    <ClCompile Include="1259_class2.cpp" />
-    <ClCompile Include="2263.cpp" />
-    <ClCompile Include="2467.cpp" />
-    <ClCompile Include="7579.cpp" />
+    <ClCompile Include="1197.cpp" />
+    <ClCompile Include="12100.cpp" />
+    <ClCompile Include="1339.cpp" />
+    <ClCompile Include="15705.cpp" />
+    <ClCompile Include="1689.cpp" />
+    <ClCompile Include="1238.cpp" />
+    <ClCompile Include="1941.cpp" />
+    <ClCompile Include="20055.cpp" />
+    <ClCompile Include="2665.cpp" />
+    <ClCompile Include="27172.cpp" />
+    <ClCompile Include="15683.cpp" />
+    <ClCompile Include="18809.cpp" />
+    <ClCompile Include="20040.cpp" />
+    <ClCompile Include="2146.cpp" />
+    <ClCompile Include="2170.cpp" />
+    <ClCompile Include="2179.cpp" />
+    <ClCompile Include="6987.cpp" />
+    <ClCompile Include="8892.cpp" />
+    <ClCompile Include="binary_prac.cpp" />
+    <ClCompile Include="leveltreeorder.cpp" />
+    <ClCompile Include="LIS_prac.cpp" />
+    <ClCompile Include="prog_emoticons.cpp" />
+    <ClCompile Include="string_sub.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="union_find_prac.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
